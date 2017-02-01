@@ -1,8 +1,8 @@
 Package.describe({
-	name: 'konecty:user-presence',
-	summary: 'Track user status',
-	version: '1.2.9',
-	git: 'https://github.com/Konecty/meteor-user-presence'
+	name: 'wcrowell:user-presence',
+	summary: 'Track user status.  Forked from https://github.com/Konecty/meteor-user-presence',
+	version: '1.2.10',
+	git: 'https://github.com/wcrowell/meteor-user-presence'
 });
 
 Package.onUse(function(api) {
@@ -22,6 +22,6 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
 	api.use('tinytest');
-	api.use('konecty:user-presence');
-	api.addFiles('konecty:user-presence-tests.js');
+	api.use('wcrowell:user-presence');
+	api.addFiles('wcrowell:user-presence-tests.js');
 });

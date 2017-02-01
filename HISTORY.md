@@ -1,3 +1,6 @@
+# 1.2.10 (2017-02-01)
+* Add custom status option 
+
 # 1.2.9 (2016-09-09)
 * Fix #16; Prevent error when proccess exit
 * Fix ESLint errors

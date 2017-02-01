@@ -1,5 +1,6 @@
 # USER PRESENCE
 
+* Forked from https://github.com/Konecty/meteor-user-presence
 * Use with multiple instances: https://github.com/Konecty/meteor-multiple-instances-status
 * Running example: http://user-presence-example.meteor.com/
 * Example code: https://github.com/Konecty/meteor-user-presence-example-chat
@@ -16,7 +17,7 @@ This package monitors the user to track user's state and save 3 fields in user's
 
 #### Add package
 ```shell
-meteor add konecty:user-presence
+meteor add wcrowell:user-presence
 ```
 
 #### Configure client
